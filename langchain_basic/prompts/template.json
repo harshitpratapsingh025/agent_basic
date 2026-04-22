@@ -1,0 +1,16 @@
+{
+    "name": null,
+    "input_variables": [
+        "business_description",
+        "business_name"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\n            You are an expert in marketing and brand strategy. \n            My business name is {business_name} \n            and my business description is {business_description}.\n            Create a compelling brand slogan for a tech startup that specializes in AI-powered solutions for small businesses. \n            The slogan should be memorable, concise, and reflect the company's mission to democratize AI technology. \n            Provide 3 slogan options and explain the reasoning behind each choice.             \n            ",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}

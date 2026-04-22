@@ -17,13 +17,14 @@ class ResponseFormat:
 
 def get_weather(city: str) -> str:
     """Get weather for a given city."""
+    print('city==>', city)
     return f"It's always sunny in {city}!"
 
 agent = create_agent(
     model="gpt-4o",
     tools=[get_weather],
     system_prompt="You are a helpful assistant",
-     response_format=ToolStrategy(ResponseFormat),
+    response_format=ToolStrategy(ResponseFormat),
 )
 
 # Run the agent
